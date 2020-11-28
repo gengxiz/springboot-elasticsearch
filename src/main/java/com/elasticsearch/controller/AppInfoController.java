@@ -7,6 +7,7 @@ import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.query.Criteria;
 import org.springframework.data.elasticsearch.core.query.CriteriaQuery;
@@ -52,7 +53,7 @@ public class AppInfoController {
 
 
         QueryBuilder queryBuilder = QueryBuilders.wildcardQuery("package","*tieba*");
-        QueryBuilder nameQueryBuilder = QueryBuilders.queryStringQuery("贴吧").field("name");
+        QueryBuilder nameQueryBuilder = QueryBuilders.queryStringQuery("百度").field("name");
         boolQueryBuilder.must(queryBuilder);
         boolQueryBuilder.must(nameQueryBuilder);
 //        QueryBuilder queryBuilder = QueryBuilders.queryStringQuery("金融").field("name");
@@ -61,6 +62,7 @@ public class AppInfoController {
 //                multiMatchQuery("name", "百度", "package", "tieba");
         NativeSearchQueryBuilder nativeSearchQueryBuilder = new NativeSearchQueryBuilder();
         nativeSearchQueryBuilder.withQuery(boolQueryBuilder);
+//        nativeSearchQueryBuilder.withPageable(PageRequest.of(0,2));
         NativeSearchQuery searchQuery = nativeSearchQueryBuilder.build();
 
 
