@@ -1,0 +1,139 @@
+{
+  "took": 830,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1999,
+      "relation": "eq"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "CPSJYXQBVdrsh3z7TVE1",
+        "_score": 1.0,
+        "_source": {
+          "id": 1,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "W2upaHQBOIM0Ghl14YMj",
+        "_score": 1.0,
+        "_source": {
+          "id": 2,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "XGupaHQBOIM0Ghl14YNz",
+        "_score": 1.0,
+        "_source": {
+          "id": 3,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "XWupaHQBOIM0Ghl14YOE",
+        "_score": 1.0,
+        "_source": {
+          "id": 4,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "XmupaHQBOIM0Ghl14YOY",
+        "_score": 1.0,
+        "_source": {
+          "id": 5,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "X2upaHQBOIM0Ghl14YOu",
+        "_score": 1.0,
+        "_source": {
+          "id": 6,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "YGupaHQBOIM0Ghl14YPF",
+        "_score": 1.0,
+        "_source": {
+          "id": 7,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "YWupaHQBOIM0Ghl14YPZ",
+        "_score": 1.0,
+        "_source": {
+          "id": 8,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "YmupaHQBOIM0Ghl14YPw",
+        "_score": 1.0,
+        "_source": {
+          "id": 9,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      },
+      {
+        "_index": "jpush",
+        "_type": "person",
+        "_id": "Y2upaHQBOIM0Ghl14oMC",
+        "_score": 1.0,
+        "_source": {
+          "id": 10,
+          "name": "暴击",
+          "age": 12,
+          "salary": 3.0
+        }
+      }
+    ]
+  }
+}
